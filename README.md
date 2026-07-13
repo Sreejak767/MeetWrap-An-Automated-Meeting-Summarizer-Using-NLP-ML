@@ -39,5 +39,5 @@ Transcription: Whisper (base)
 Summarization: BART-Large-CNN, BART-SamSum, KnKarthick
 ## 📸 Output Screenshots
 
-![MeetWrap Output](output-images/Images.png)
+![MeetWrap Output](output-images/Images%20.png)
 
