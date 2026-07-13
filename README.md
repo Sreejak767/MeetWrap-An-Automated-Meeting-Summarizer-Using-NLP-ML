@@ -37,9 +37,3 @@ Max file size: 100MB
 Models
 Transcription: Whisper (base)
 
-Summarization: BART-Large-CNN, BART-SamSum, KnKarthick
-## 📸 Screenshots
-
-### MeetWrap Application
-
-![MeetWrap Application](screenshots/MeetWrap-Screenshots.png)
