@@ -1,42 +1,42 @@
-# MeetWrap
-
-AI-powered meeting transcription and summarization tool.
-
-## Features
-
-- Audio transcription using Whisper
-- Meeting summarization with BART/SamSum models
-- Key insights extraction
-- Web-based interface
-
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
 
-2.Run the application:
+2. Run the application:
 
+```bash
 python app.py
-Open http://localhost:5000 in your browser
+```
 
-Usage
-Upload an audio file (MP3, WAV, M4A, FLAC, OGG, WMA)
+Open `http://localhost:5000` in your browser.
 
-Select transcription and summary models
+## Usage
 
-Click "Process" to analyze
+- Upload an audio file (MP3, WAV, M4A, FLAC, OGG, WMA)
+- Select transcription and summary models
+- Click **Process** to analyze
+- View transcript, summary, and key insights
 
-View transcript, summary, and key insights
+## Supported Formats
 
-Supported Formats
-Audio: MP3, WAV, M4A, FLAC, OGG, WMA
+- MP3
+- WAV
+- M4A
+- FLAC
+- OGG
+- WMA
 
-Max file size: 100MB
+**Maximum file size:** 100 MB
 
-Models
-Transcription: Whisper (base)
-Summarization: BART-Large-CNN, BART-SamSum, KnKarthick
+## Models
+
+- **Transcription:** Whisper (Base)
+- **Summarization:** BART-Large-CNN, BART-SamSum, KnKarthick
+
 ## 📸 Output Screenshots
 
 ![MeetWrap Output](output-images/Images%20.png)
